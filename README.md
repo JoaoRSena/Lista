@@ -1,6 +1,6 @@
 # Lista de itens
 
-Crie sua própria lista para lembrar das suas tarefas ou itens que deseja levar para uma viajem por exemplo.
+Crie sua própria lista para lembrar das suas tarefas ou itens que deseja levar para uma viagem por exemplo.
 
 | :adult: João Sena |     |
 | -------------  | --- |
@@ -26,7 +26,7 @@ Foi utilizado um projeto pronto com arte utilizando css do CODEPEN: @TRICIAAKATZ
 ## Como funciona
 
 Ao abrir o site temos apenas 2 opções de campos apra preencher, em NOME podemos colocar o item que deseja e em QUANTIDADE o numero de quantos daquele item queremos nos lembrar para levar/trazer.
-Por exemplo: Caso vá fazer uma viajem, pode criar a lista doque deseja levar para não esquecer antes de montar a sua mala
+Por exemplo: Caso vá fazer uma viagem, pode criar a lista doque deseja levar para não esquecer antes de montar a sua mala
 
 ![lista feita](https://user-images.githubusercontent.com/89817889/199545448-91c1a467-ebdc-4824-aef1-cdd5ea2a6541.jpg)
 
