@@ -1,8 +1,7 @@
-# Formulário de Serviço
+# Lista de itens
 
-Formulário para facilitar cominicação entre cliente e profissional.
+Crie sua própria lista para lembrar das suas tarefas ou itens que deseja levar para uma viajem por exemplo.
 
-| :placard: Vitrine.Dev |     |
 | :adult: João Sena |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Lista para viagem, compras ou afazeres**
@@ -33,10 +32,12 @@ Por exemplo: Caso vá fazer uma viajem, pode criar a lista doque deseja levar pa
 
 Preenchendo cada item por vez com suas devidas quantidades, dessa forma é formada uma lista ordenada ao lado com suas devidas quantidades como mostrado a seguir.
 
-![lista](https://github.com/JoaoRSena/Lista/issues/2#issue-1433437573.jpg)
+![lista](https://user-images.githubusercontent.com/89817889/199545241-30b28b08-2274-4037-83e4-c0acd805a4f1.jpg)
 
 Conforme for pegando seus item para colocar na mala, pode deletar cada um dos itens que não precisa mais ser lembrado clicando no botão com o X, deletando assim aquele item e deixando sua lista menos poluida e confusa.
 
-![botao](https://github.com/JoaoRSena/Lista/issues/4#issue-1433439714.jpg)
+![botao](https://user-images.githubusercontent.com/89817889/199545569-44003349-f603-4839-9c54-0e77b97837a2.jpg)
 
 Fica muito mais facil ter uma lista dessas em mãos, todos os itens ficam salvos no navegador que estiver utilizando facilitando assim seu dia-a-dia tendo ela no celular por exemplo.
+
+Toda a parte de interação foi feita somente com JavaScript, e também a criação dos botões e lista de forma automatizada, sempre que for adicionado um item a lista é atualizada de forma automática com um botão para deletar o item caso necessário.
