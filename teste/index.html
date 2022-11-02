@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teste.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>vamos calcular</h1>
+    <input type="number" name="numer1" id="numer1"> 
+    <input type="number" name="numer2" id="numer2">
+    <div class="botoes">
+    <input type="button" value="+" onclick="somar()"> 
+    <input type="button" value="-" onclick="diminuir()"> 
+    <input type="button" value="/" onclick="dividir()"> 
+    <input type="button" value="X" onclick="multiplicar()"> 
+    <input type="button" value="C" onclick="zerar()"> 
+    </div>
+
+
+
+<div class="result" id="result"> Resultado </div>
+
+<script>
+
+const primeiroNumero = document.getElementById('numer1')
+const segundoNumero = document.getElementById('numer2')
+const resultado = document.getElementById('result')
+
+
+function somar () {
+let n1 = Number(primeiroNumero.value)
+let n2 = Number(segundoNumero.value)
+let somou = n1 + n2
+resultado.innerHTML = `a soma entre ${n1} e ${n2} é igual ${somou}`
+}
+
+function diminuir () {
+let n1 = Number(primeiroNumero.value)
+let n2 = Number(segundoNumero.value)
+let subtrair = n1 - n2
+resultado.innerHTML = `a subtração entre ${n1} e ${n2} é igual ${subtrair}`
+}
+
+function dividir () {
+let n1 = Number(primeiroNumero.value)
+let n2 = Number(segundoNumero.value)
+let dividiu = n1 / n2
+resultado.innerHTML = `a divisão entre ${n1} e ${n2} é igual ${dividiu}`
+}
+
+function multiplicar () {
+let n1 = Number(primeiroNumero.value)
+let n2 = Number(segundoNumero.value)
+let vezes = n1 * n2
+resultado.innerHTML = `a multiplicação entre ${n1} e ${n2} é igual ${vezes}`
+}
+
+function zerar () {
+resultado.innerHTML = `Resultado`
+}
+
+</script>
+</body>
+</html>

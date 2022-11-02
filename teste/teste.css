@@ -1,0 +1,28 @@
+.numeros {
+    display: flex;
+    width: 30%;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.somar {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.botoes {
+    width: 20%;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 0px;
+    justify-content: space-around;
+}
+
